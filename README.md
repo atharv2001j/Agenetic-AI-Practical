@@ -5,6 +5,8 @@ This repository contains two AI projects:
 
 1. **Financial_AI-Agent** - An AI agent for financial decision-making that leverages Phidata and Groq for query analysis and model interaction.
 2. **Multiagent_AI_RAG_using_vectordb** - A PDF analyzer that allows users to chat with documents by providing the document URL, utilizing Groq, Docker, and Phidata.
+3. **Video Summarizer** - contain script for the summarizing the video with proper content and explanation by adding the special comments and bullet points  
+
 
 ## Table of Contents
 
@@ -26,12 +28,17 @@ The **Financial_AI-Agent** is designed to interact with users and perform financ
 
 The **Multiagent_AI_RAG_using_vectordb** project focuses on enabling users to interact with PDF documents. The system allows a user to provide a document URL, after which it processes and analyzes the PDF content. Using **Groq**, **Docker**, and **Phidata**, the system leverages a multi-agent architecture to offer a conversation-like interface where users can ask questions or engage with the document’s content.
 
+### Video Summarizer 
+
+The **Video Summarizer** project focus on the summarizing the video with proper content and explanation by adding the special comments and bullet points  
+
 ## Technologies Used
 
 - **Python** - The primary programming language used for both projects.
 - **Phidata** - Used for agent creation and data processing in both projects.
 - **Groq** - Used for model interaction and query analysis.
 - **Docker** - Used for containerizing the multi-agent system and enabling easier deployment in **Multiagent_AI_RAG_using_vectordb**.
+- **Gemini** - Use for the generating the summary of the video.
 
 
 ## Project Structure
@@ -50,6 +57,8 @@ Agenetic-AI-Practical/
 
 - **Financial_AI-Agent/** - Contains scripts for the financial AI agent, including user query processing, internet search, and analysis tasks.
 - **Multiagent_AI_RAG_using_vectordb/** - Contains scripts for analyzing and interacting with PDF documents via a chat-like interface.
+- **Video Summarizer** - contain script for the summarizing the video with proper content and explanation by adding the special comments and bullet points  
+
 
 ## Setup and Installation
 
